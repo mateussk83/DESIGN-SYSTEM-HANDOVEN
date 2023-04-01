@@ -1,0 +1,11 @@
+{
+  "name": "@handoven-ui/eslint-config",
+  "version": "1.0.0",
+  "license": "ISC",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "eslint": "^8.37.0"
+  }
+}

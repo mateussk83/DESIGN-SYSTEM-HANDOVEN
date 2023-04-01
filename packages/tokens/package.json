@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "@handoven-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -10,14 +10,13 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
-  "keywords": [], 
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@handoven-ui/tokens": "*",
     "@handoven-ui/ts-config": "*",
     "@handoven-ui/eslint-config": "*",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.2"
   }
 }
