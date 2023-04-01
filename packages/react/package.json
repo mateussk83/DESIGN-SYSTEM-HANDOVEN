@@ -12,7 +12,7 @@
   },
   "keywords": [], 
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@handoven-ui/tokens": "*",
     "@handoven-ui/ts-config": "*",
