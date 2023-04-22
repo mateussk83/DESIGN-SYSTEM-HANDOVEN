@@ -25,7 +25,7 @@ const config = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system-Calendar/'
+      config.base = '/DESIGN-SYSTEM-HANDOVEN/'
     }
 
     return config
