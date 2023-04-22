@@ -2,7 +2,7 @@
   "name": "@handoven-ui/eslint-config",
   "version": "2.0.0",
   "private": true,
-  "license": "MIT",
+  "license": "ISC",
   "main": "index.js",
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.2.0",

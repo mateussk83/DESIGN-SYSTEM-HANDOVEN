@@ -12,7 +12,7 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "author": "Mateus Garcia Santos",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@handoven-ui/ts-config": "*",
     "@handoven-ui/eslint-config": "*",
