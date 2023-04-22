@@ -1,4 +1,4 @@
 {
- "extends": "@handoven-ui/ts-config/react.json",
- "include": ["src"]
+  "extends": "@handoven-ui/ts-config/react.json",
+  "include": ["src"]
 }

@@ -1,18 +1,18 @@
 {
   "name": "@handoven-ui/tokens",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/**/*.ts* --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mateus Garcia Santos",
+  "license": "MIT",
   "devDependencies": {
     "@handoven-ui/ts-config": "*",
     "@handoven-ui/eslint-config": "*",

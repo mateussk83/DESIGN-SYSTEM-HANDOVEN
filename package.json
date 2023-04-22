@@ -2,5 +2,20 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!@handoven-ui/docs && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@storybook/types": "^7.0.5",
+    "turbo": "^1.9.3"
+  },
+  "dependencies": {
+    "phosphor-react": "^1.4.1"
+  }
 }
